@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Fit AI - Legal Compliance & Privacy Hub</title>
+  <meta name="description" content="Official Privacy Policy, Terms of Service, and Medical Disclaimer for My Fit AI (vn.cttlabs.myfit) developed by CTT Labs.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #2563EB;
+      --primary-light: #DBEAFE;
+      --primary-dark: #1D4ED8;
+      --accent: #10B981;
+      --danger: #EF4444;
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --text: #0F172A;
+      --text-muted: #64748B;
+      --border: #E2E8F0;
+      --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.08);
+      --radius: 14px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0B0F19;
+        --card-bg: #151C2C;
+        --text: #F1F5F9;
+        --text-muted: #94A3B8;
+        --border: #242F48;
+        --primary-light: #1E293B;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 0;
+      margin: 0;
+    }
+
+    header {
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(8px);
+    }
+
+    .header-container {
+      max-width: 1024px;
+      margin: 0 auto;
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-icon {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #2563EB, #3B82F6);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 800;
+      font-size: 20px;
+    }
+
+    .brand-text h1 {
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-text p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      background: var(--primary-light);
+      color: var(--primary);
+    }
+
+    nav {
+      max-width: 1024px;
+      margin: 0 auto;
+      padding: 12px 20px 0;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+    }
+
+    .tab-btn {
+      padding: 10px 18px;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .tab-btn.active {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+    }
+
+    main {
+      max-width: 1024px;
+      margin: 24px auto 60px;
+      padding: 0 20px;
+    }
+
+    .tab-content {
+      display: none;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px;
+      box-shadow: var(--shadow);
+      animation: fadeIn 0.25s ease-in-out;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-top: 24px;
+      margin-bottom: 8px;
+      color: var(--primary);
+    }
+
+    p {
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    ul, ol {
+      margin-left: 20px;
+      margin-bottom: 16px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .meta-box {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 24px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      font-size: 0.85rem;
+    }
+
+    .meta-item strong {
+      display: block;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .alert {
+      border-left: 4px solid var(--primary);
+      background: var(--primary-light);
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin: 18px 0;
+      font-size: 0.9rem;
+    }
+
+    .alert-danger {
+      border-left-color: var(--danger);
+      background: rgba(239, 68, 68, 0.1);
+      color: var(--danger);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      background: var(--primary);
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      border-radius: 8px;
+      transition: background 0.2s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: var(--primary-dark);
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      text-align: center;
+      padding: 24px 20px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      background: var(--card-bg);
+    }
+
+    @media (max-width: 640px) {
+      .tab-content { padding: 20px 16px; }
+      .header-container { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <div class="brand">
+        <div class="brand-icon">⚡</div>
+        <div class="brand-text">
+          <h1>My Fit AI</h1>
+          <p>Scientific Fitness & Health Companion</p>
+        </div>
+      </div>
+      <div>
+        <span class="badge">Google Play Verified • vn.cttlabs.myfit</span>
+      </div>
+    </div>
+    <nav>
+      <button class="tab-btn active" onclick="switchTab('privacy')">Privacy Policy</button>
+      <button class="tab-btn" onclick="switchTab('terms')">Terms of Service</button>
+      <button class="tab-btn" onclick="switchTab('medical')">Medical Disclaimer</button>
+      <button class="tab-btn" onclick="switchTab('deletion')">Account & Data Deletion</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- TAB 1: PRIVACY POLICY -->
+    <section id="privacy" class="tab-content active">
+      <h2>Privacy Policy</h2>
+      <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 16px;">
+        Effective Date: November 09, 2026 | Last Updated: November 09, 2026
+      </p>
+
+      <div class="meta-box">
+        <div class="meta-item">
+          <strong>Developer</strong>
+          CTT Labs
+        </div>
+        <div class="meta-item">
+          <strong>Application ID</strong>
+          vn.cttlabs.myfit
+        </div>
+        <div class="meta-item">
+          <strong>Contact Support</strong>
+          ctt.labs@gmail.com
+        </div>
+        <div class="meta-item">
+          <strong>Target Platforms</strong>
+          Android 8.0 to Android 15+
+        </div>
+      </div>
+
+      <p>
+        Welcome to <strong>My Fit AI</strong>, developed by <strong>CTT Labs</strong>. We are committed to safeguarding the privacy and personal data of our users in compliance with the Google Play Developer Program Policies, GDPR, and CCPA.
+      </p>
+
+      <h3>1. Information We Collect</h3>
+      <ul>
+        <li><strong>Account Information:</strong> When signing in with Google, we receive your display name, email address, and profile photo via Google Authentication.</li>
+        <li><strong>Workout & Fitness Data:</strong> Workout logs, exercise history, sets, reps, weight loads, 1RM calculations, and rest times. All workout data is stored locally in an encrypted Room SQLite database on your device.</li>
+        <li><strong>Nutrition & Body Measurements:</strong> Calorie intake, protein/carb/fat logs, body weight, and biometric measurements.</li>
+        <li><strong>Photos (Camera Access):</strong> Progress posture photos and food pictures captured by the user are stored <em>strictly locally on the device's sandboxed storage</em> and are never transmitted to our servers.</li>
+      </ul>
+
+      <h3>2. Device Permissions</h3>
+      <ul>
+        <li><code>POST_NOTIFICATIONS</code>: Delivers real-time workout rest timer notifications and daily training reminders.</li>
+        <li><code>CAMERA</code>: Allows optional user capture of body posture pictures and meal logs.</li>
+        <li><code>FOREGROUND_SERVICE_SPECIAL_USE</code>: Maintains an active countdown timer on your lock screen during workout rest intervals.</li>
+        <li><code>VIBRATE</code>: Provides tactile feedback when completing exercise sets.</li>
+      </ul>
+
+      <h3>3. Third-Party Services</h3>
+      <p>My Fit AI integrates verified third-party SDKs to provide essential features:</p>
+      <ul>
+        <li><strong>Google Play Services & Google Identity:</strong> For secure authentication. (<a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a>)</li>
+        <li><strong>Google Mobile Ads (AdMob):</strong> Displays banner and rewarded ads using pseudonymous identifiers. (<a href="https://support.google.com/admob/answer/6128543" target="_blank">AdMob Policy</a>)</li>
+        <li><strong>Cloudflare AI Proxy:</strong> Stateless processing of natural language fitness tips without storing personal identities. (<a href="https://www.cloudflare.com/privacypolicy/" target="_blank">Cloudflare Policy</a>)</li>
+      </ul>
+
+      <h3>4. Data Protection & Security</h3>
+      <p>
+        We employ industry-standard security safeguards. All network communication occurs exclusively over HTTPS/TLS encrypted connections (Cleartext HTTP traffic is strictly disabled in production builds). We do not sell or monetize personal user data.
+      </p>
+
+      <h3>5. Children's Privacy</h3>
+      <p>
+        My Fit AI is not directed to children under 13 years of age. We do not knowingly collect personal information from children under 13.
+      </p>
+    </section>
+
+    <!-- TAB 2: TERMS OF SERVICE -->
+    <section id="terms" class="tab-content">
+      <h2>Terms of Service</h2>
+      <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 16px;">
+        Last Updated: November 09, 2026 • CTT Labs
+      </p>
+
+      <p>
+        By downloading, installing, or using My Fit AI, you agree to be bound by these Terms of Service. If you do not agree, please do not use the application.
+      </p>
+
+      <h3>1. Fitness Tracking & Sports Science Purpose</h3>
+      <p>
+        My Fit AI is designed solely as a self-guided fitness tracking tool and educational companion. It is not a medical device, and its algorithms do not constitute clinical treatment or medical diagnoses.
+      </p>
+
+      <h3>2. User Responsibilities & Assumption of Risk</h3>
+      <p>
+        Weightlifting and strenuous physical training involve inherent risks of physical injury. You voluntarily assume full responsibility for your physical safety, posture form, and exercise choices when using the application.
+      </p>
+
+      <h3>3. Intellectual Property</h3>
+      <p>
+        All rights, titles, and interests in and to My Fit AI, including UI designs, codebase, exercise databases, algorithms, and logos, are the exclusive intellectual property of CTT Labs.
+      </p>
+
+      <h3>4. Limitation of Liability</h3>
+      <p>
+        To the maximum extent permitted by applicable law, CTT Labs shall not be held liable for any direct, indirect, incidental, or consequential injuries or damages arising from the use of the App.
+      </p>
+    </section>
+
+    <!-- TAB 3: MEDICAL DISCLAIMER -->
+    <section id="medical" class="tab-content">
+      <h2>Medical Disclaimer & Physical Safety Policy</h2>
+      <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 16px;">
+        Mandatory Safety Policy for All My Fit AI Users
+      </p>
+
+      <div class="alert alert-danger">
+        <strong>CRITICAL NOTICE:</strong> My Fit AI does not provide medical advice. Consult a qualified physician before undertaking any new exercise or dietary regimen.
+      </div>
+
+      <h3>1. No Doctor-Patient Relationship</h3>
+      <p>
+        The content, calculations, 1RM models, muscle recovery heatmaps, and AI Coach suggestions provided in My Fit AI are for general informational purposes only. Use of this application does not create a doctor-patient, physical therapist, or dietitian relationship.
+      </p>
+
+      <h3>2. Medical Clearance Requirement</h3>
+      <p>
+        You should consult a physician before using the app if you have a history of heart disease, hypertension, joint/spinal injuries, diabetes, or if you are pregnant or over 35 years old and previously sedentary.
+      </p>
+
+      <h3>3. Emergency Symptoms</h3>
+      <p>
+        If you experience chest pain, acute dizziness, shortness of breath, or palpitations during exercise, <strong>STOP IMMEDIATELY</strong> and contact your local emergency medical services (115 in Vietnam, 911 in the US).
+      </p>
+    </section>
+
+    <!-- TAB 4: ACCOUNT DELETION -->
+    <section id="deletion" class="tab-content">
+      <h2>Account & Data Deletion Instructions</h2>
+      <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 16px;">
+        Google Play Account Deletion Policy Compliance
+      </p>
+
+      <p>
+        In compliance with Google Play's Data Safety and Account Deletion policies, My Fit AI provides two straightforward methods to delete your account and all associated personal data:
+      </p>
+
+      <div class="alert">
+        <strong>Method 1: Direct In-App Instant Deletion (Recommended)</strong>
+        <ol style="margin-top: 8px;">
+          <li>Open the <strong>My Fit AI</strong> app on your Android device.</li>
+          <li>Tap the <strong>Cài đặt (Settings)</strong> icon on the bottom navigation bar.</li>
+          <li>Scroll down to <strong>Sao lưu & Quản lý dữ liệu (Backup & Data)</strong>.</li>
+          <li>Tap <strong>"Xóa toàn bộ dữ liệu & Tài khoản" (Delete Account & All Data)</strong> and confirm.</li>
+          <li>All your local workout history, nutrition logs, photos, and cached authentication tokens will be immediately and irreversibly purged from your device.</li>
+        </ol>
+      </div>
+
+      <div class="alert">
+        <strong>Method 2: Web / Email Deletion Request</strong>
+        <p style="margin-top: 8px;">
+          If you have uninstalled the app or cannot access your device, submit a deletion request by email:
+        </p>
+        <ul>
+          <li><strong>To:</strong> <a href="mailto:ctt.labs@gmail.com">ctt.labs@gmail.com</a></li>
+          <li><strong>Subject:</strong> <code>Request Account and Data Deletion - My Fit</code></li>
+          <li><strong>Content:</strong> Provide the Google account email address you used to sign in to My Fit.</li>
+        </ul>
+        <p style="margin-top: 8px;">
+          Our support team will process your request and permanently erase all cloud-associated records within <strong>48 business hours</strong>.
+        </p>
+      </div>
+
+      <a class="btn" href="mailto:ctt.labs@gmail.com?subject=Request%20Account%20and%20Data%20Deletion%20-%20My%20Fit">
+        ✉️ Submit Deletion Request via Email
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 CTT Labs. All rights reserved. • Package: <code>vn.cttlabs.myfit</code></p>
+    <p style="margin-top: 4px;">Contact: <a href="mailto:ctt.labs@gmail.com" style="color: var(--primary);">ctt.labs@gmail.com</a></p>
+  </footer>
+
+  <script>
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+
+      const targetContent = document.getElementById(tabId);
+      if (targetContent) targetContent.classList.add('active');
+
+      const clickedBtn = Array.from(document.querySelectorAll('.tab-btn')).find(b =>
+        b.getAttribute('onclick').includes(tabId)
+      );
+      if (clickedBtn) clickedBtn.classList.add('active');
+
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
